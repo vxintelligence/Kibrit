@@ -1115,7 +1115,7 @@ ITechnique* CyberSimLayer::GetTechnique(int index) {
 
 void CyberSimLayer::OnUIRender() {
     // Main application window
-    ImGui::Begin("Kibrit - MITRE ATT&CK Educational Simulator");
+    ImGui::Begin("Kibrit - MITRE ATT&CK Simulator");
 
     RenderHeader();
     ImGui::Separator();
@@ -1159,7 +1159,7 @@ void CyberSimLayer::OnUIRender() {
 }
 
 void CyberSimLayer::RenderHeader() {
-    ImGui::Text("MITRE ATT&CK Educational Simulator");
+    ImGui::Text("MITRE ATT&CK Simulator");
     ImGui::Text("Session: %s%s", m_sessionName.c_str(), m_sessionModified ? "*" : "");
 
     ImGui::Spacing();
@@ -1545,7 +1545,7 @@ void CyberSimLayer::UpdateGlobalLogs() {
 // Updated Application entry point with complete menu
 Walnut::Application* Walnut::CreateApplication(int argc, char** argv) {
     Walnut::ApplicationSpecification spec;
-    spec.Name = "Kibrit - MITRE ATT&CK Educational Simulator";
+    spec.Name = "Kibrit - MITRE ATT&CK Simulator";
     spec.Width = 1400;
     spec.Height = 900;
 
