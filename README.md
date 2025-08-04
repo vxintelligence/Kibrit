@@ -8,6 +8,10 @@
 
 Kibrit is a comprehensive simulator designed to help cybersecurity professionals, students, and researchers understand attack techniques from the MITRE ATT&CK framework in a safe, controlled environment. The platform provides interactive demonstrations of various attack techniques while emphasizing defensive strategies and detection methods.
 
+## Showcase
+
+![Alt Text](Screenshots/RefrenceA.png)
+
 ### Key Features
 
 - **Safe Learning Environment** - All demonstrations are for simulation purposes
