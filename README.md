@@ -12,6 +12,10 @@ Kibrit is a comprehensive simulator designed to help cybersecurity professionals
 
 ![Alt Text](Screenshots/RefrenceA.png)
 
+### Elastic Demonstration
+
+![Alt Text](Screenshots/Elastic_Demonstration.gif)
+
 ### Key Features
 
 - **Safe Learning Environment** - All demonstrations are for simulation purposes
