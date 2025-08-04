@@ -1,3 +1,4 @@
+// Reference for process inejction technique ; https://offensive-panda.github.io/
 #pragma once
 #include <string>
 #include <vector>
@@ -525,7 +526,7 @@ namespace CyberSim {
                 "T1055.009 - Proc Memory",
                 "T1055.011 - Extra Window Memory Injection",
                 "T1055.012 - Process Hollowing",
-                "T1055.013 - Process Doppelg‰nging",
+                "T1055.013 - Process Doppelg√§nging",
                 "T1055.014 - VDSO Hijacking"
             };
         }
