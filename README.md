@@ -532,6 +532,7 @@ Before submitting, test your scripts thoroughly:
 | T1134 | Access Token Manipulation | Defense Evasion, Privilege Escalation | C++ Header |
 | T1547.001 | Registry Run Keys / Startup Folder | Persistence | C++ Header |
 | T1059.003 | Windows Command Shell | Execution | C++ Header |
+| T1197 | BITS download functionality | Defense Evasion, Persistence, Command and Control | LUA Script |
 
 ## Architecture
 
