@@ -54,6 +54,7 @@ Kibrit is a comprehensive simulator designed to help cybersecurity professionals
    ./bin/Release/Kibrit.exe
    ```
 
+
 ## Usage
 
 ### Getting Started
