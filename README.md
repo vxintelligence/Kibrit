@@ -542,6 +542,82 @@ Before submitting, test your scripts thoroughly:
 | T1547.001 | Registry Run Keys / Startup Folder | Persistence | C++ Header |
 | T1059.003 | Windows Command Shell | Execution | C++ Header |
 | T1197 | BITS download functionality | Defense Evasion, Persistence, Command and Control | LUA Script |
+<details>
+<summary><strong>View Full MITRE ATT&CK Matrix Coverage</strong> (5 of 200+ techniques implemented)</summary>
+
+*Legend: **Bold** = Implemented in Kibrit*
+
+| Initial Access | Execution | Persistence | Privilege Escalation | Defense Evasion | Credential Access |
+|---|---|---|---|---|---|
+| Content Injection | **Command and Scripting Interpreter** | Account Manipulation | Abuse Elevation Control Mechanism | Abuse Elevation Control Mechanism | Adversary-in-the-Middle |
+| Drive-by Compromise | Exploitation for Client Execution | **BITS Jobs** | **Access Token Manipulation** | **Access Token Manipulation** | Brute Force |
+| Exploit Public-Facing Application | Input Injection | **Boot or Logon Autostart Execution** | Account Manipulation | **BITS Jobs** | Credentials from Password Stores |
+| External Remote Services | Inter-Process Communication | Boot or Logon Initialization Scripts | Boot or Logon Autostart Execution | Debugger Evasion | Exploitation for Credential Access |
+| Hardware Additions | Native API | Compromise Host Software Binary | Boot or Logon Initialization Scripts | Deobfuscate/Decode Files or Information | Forced Authentication |
+| Phishing | Scheduled Task/Job | Create Account | Create or Modify System Process | Direct Volume Access | Forge Web Credentials |
+| Replication Through Removable Media | Shared Modules | Create or Modify System Process | Domain or Tenant Policy Modification | Domain or Tenant Policy Modification | Input Capture |
+| Supply Chain Compromise | Software Deployment Tools | Event Triggered Execution | Escape to Host | Email Spoofing | Modify Authentication Process |
+| Trusted Relationship | System Services | Exclusive Control | Event Triggered Execution | Execution Guardrails | Multi-Factor Authentication Interception |
+| Valid Accounts | User Execution | External Remote Services | Exploitation for Privilege Escalation | Exploitation for Defense Evasion | Multi-Factor Authentication Request Generation |
+| Wi-Fi Networks | Windows Management Instrumentation | Hijack Execution Flow | Hijack Execution Flow | File and Directory Permissions Modification | Network Sniffing |
+| | | Modify Authentication Process | **Process Injection** | Hide Artifacts | OS Credential Dumping |
+| | | Modify Registry | Scheduled Task/Job | Hijack Execution Flow | Steal or Forge Authentication Certificates |
+| | | Office Application Startup | Valid Accounts | Impair Defenses | Steal or Forge Kerberos Tickets |
+| | | Power Settings | | Impersonation | Steal Web Session Cookie |
+| | | Pre-OS Boot | | Indicator Removal | Unsecured Credentials |
+| | | Scheduled Task/Job | | Indirect Command Execution | |
+| | | Server Software Component | | Masquerading | |
+| | | Software Extensions | | Modify Authentication Process | |
+| | | Traffic Signaling | | Modify Registry | |
+| | | Valid Accounts | | Obfuscated Files or Information | |
+| | | | | Pre-OS Boot | |
+| | | | | **Process Injection** | |
+| | | | | Reflective Code Loading | |
+| | | | | Rogue Domain Controller | |
+| | | | | Rootkit | |
+| | | | | Subvert Trust Controls | |
+| | | | | System Binary Proxy Execution | |
+| | | | | System Script Proxy Execution | |
+| | | | | Template Injection | |
+| | | | | Traffic Signaling | |
+| | | | | Trusted Developer Utilities Proxy Execution | |
+| | | | | Use Alternate Authentication Material | |
+| | | | | Valid Accounts | |
+| | | | | Virtualization/Sandbox Evasion | |
+| | | | | XSL Script Processing | |
+
+| Discovery | Lateral Movement | Collection | Command and Control | Exfiltration | Impact |
+|---|---|---|---|---|---|
+| Account Discovery | Exploitation of Remote Services | Adversary-in-the-Middle | Application Layer Protocol | Automated Exfiltration | Account Access Removal |
+| Application Window Discovery | Internal Spearphishing | Archive Collected Data | **BITS Jobs** | Data Transfer Size Limits | Data Destruction |
+| Browser Information Discovery | Lateral Tool Transfer | Audio Capture | Content Injection | Exfiltration Over Alternative Protocol | Data Encrypted for Impact |
+| Debugger Evasion | Remote Service Session Hijacking | Automated Collection | Data Encoding | Exfiltration Over C2 Channel | Data Manipulation |
+| Device Driver Discovery | Remote Services | Browser Session Hijacking | Data Obfuscation | Exfiltration Over Other Network Medium | Defacement |
+| Domain Trust Discovery | Replication Through Removable Media | Clipboard Data | Dynamic Resolution | Exfiltration Over Physical Medium | Disk Wipe |
+| File and Directory Discovery | Software Deployment Tools | Data from Information Repositories | Encrypted Channel | Exfiltration Over Web Service | Email Bombing |
+| Group Policy Discovery | Taint Shared Content | Data from Local System | Fallback Channels | Scheduled Transfer | Endpoint Denial of Service |
+| Log Enumeration | Use Alternate Authentication Material | Data from Network Shared Drive | Hide Infrastructure | | Financial Theft |
+| Network Service Discovery | | Data from Removable Media | Ingress Tool Transfer | | Firmware Corruption |
+| Network Share Discovery | | Data Staged | Multi-Stage Channels | | Inhibit System Recovery |
+| Network Sniffing | | Email Collection | Non-Application Layer Protocol | | Network Denial of Service |
+| Password Policy Discovery | | Input Capture | Non-Standard Port | | Resource Hijacking |
+| Peripheral Device Discovery | | Screen Capture | Protocol Tunneling | | Service Stop |
+| Permission Groups Discovery | | Video Capture | Proxy | | System Shutdown/Reboot |
+| **Process Discovery** | | | Remote Access Tools | | |
+| Query Registry | | | Traffic Signaling | | |
+| Remote System Discovery | | | Web Service | | |
+| Software Discovery | | | | | |
+| System Information Discovery | | | | | |
+| System Location Discovery | | | | | |
+| System Network Configuration Discovery | | | | | |
+| System Network Connections Discovery | | | | | |
+| System Owner/User Discovery | | | | | |
+| System Service Discovery | | | | | |
+| System Time Discovery | | | | | |
+| Virtual Machine Discovery | | | | | |
+| Virtualization/Sandbox Evasion | | | | | |
+
+</details>
 
 ## Architecture
 
