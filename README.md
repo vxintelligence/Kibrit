@@ -55,6 +55,7 @@ Kibrit is a comprehensive simulator designed to help cybersecurity professionals
    
    # Or using command line
    msbuild Kibrit.sln /p:Configuration=Release
+   Or execute Setup.bin from scripts folder.
    ```
 
 4. **Run the application**
